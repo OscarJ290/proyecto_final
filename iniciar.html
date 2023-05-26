@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="icon" type="image/x-icon" href="http://3.bp.blogspot.com/-exnOYv1QVdA/VBw5iSzymvI/AAAAAAAAD3A/EfFMEr34zio/s1600/PUMAS%2BUNAM%2BLOGO-GOYO3.png">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper purple accent-3">
+            <a href="index.html" class="brand-logo">FES Aragón</a>
+        </div>
+    </nav>
+    <div class="row">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Facultad_de_Estudios_Superiores_%28FES%29_Aragon.jpg" class="col s12 center-align responsive-img" alt="">
+    </div>
+    <div class="row">
+        <h1 class="col s12 center">Iniciar Sesión</h1>
+    </div>
+    <div class="row">
+    <form class="col s8 offset-s2" action="login.php" method="post">
+            <div class="form-field col s12">
+                <label for="correo">Correo</label>
+                <input placeholder="Correo" name="correo" type="text" class="validate" required>
+            </div>
+            <div class="form-field col s12">
+                <label for="cuenta">Número de cuenta</label>
+                <input placeholder="Número de cuenta" name="cuenta" type="text" class="validate" required>
+            </div>
+            <button type="submit" class="offset-s3 waves-effect waves-light btn light-blue col s6">Enviar</button>
+    </form>
+    </div>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>
